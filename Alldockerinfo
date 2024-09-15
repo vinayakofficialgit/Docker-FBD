@@ -1,0 +1,6 @@
+for adding docker to group
+#usermod -aG docker $USER
+
+
+if docker daemon soket  permission denied  issue
+#sudo chown $USER /var/run/docker.sock
